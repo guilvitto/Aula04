@@ -1,6 +1,5 @@
 n=int(input("Digite um número de 1-12: "))
-if n>=1 or n>12:
-    print("DIGITA CERTO MIZERAAA!!!!")
+if n>=1 and n<=12:
     if n==1:
         print("Seu mês foi Janeiro!")
     elif n==2:
@@ -25,7 +24,8 @@ if n>=1 or n>12:
         print("Seu mês foi Novembro!")
     elif n==12:
         print("Seu mês foi Dezembro!")
-
+else:
+    print("DIGITA CERTO MIZERAAA!!!!")
 
 
 
